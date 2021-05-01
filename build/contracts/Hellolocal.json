@@ -1,0 +1,215 @@
+{
+  "contractName": "Hellolocal",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/shubhamshrivastava/helloCelo/contracts/Hellolocal.sol\":\"Hellolocal\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/shubhamshrivastava/helloCelo/contracts/Hellolocal.sol\":{\"keccak256\":\"0x49edbf5c54bff3c7acc39f5d308ee3c89a25735bc353ed49e3f3f1befffc0d42\",\"urls\":[\"bzz-raw://566403a88afd51688f8db05bce5918800154d3c4cd63c8de199f27180342d556\",\"dweb:/ipfs/QmfPwAUW9V35sYvYE1fGhKbY1qnZ3Xy28d1m4roTyTtqNH\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158207bda743efeb42a834917ba7ab4bb21b206f924bce83c8e606cf0166a96ab50e064736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158207bda743efeb42a834917ba7ab4bb21b206f924bce83c8e606cf0166a96ab50e064736f6c63430005100032",
+  "sourceMap": "66:52:1:-;;;90:26;8:9:-1;5:2;;;30:1;27;20:12;5:2;90:26:1;66:52;;;;;;",
+  "deployedSourceMap": "66:52:1:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Hellolocal {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "/Users/shubhamshrivastava/helloCelo/contracts/Hellolocal.sol",
+  "ast": {
+    "absolutePath": "/Users/shubhamshrivastava/helloCelo/contracts/Hellolocal.sol",
+    "exportedSymbols": {
+      "Hellolocal": [
+        30
+      ]
+    },
+    "id": 31,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 25,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 30,
+        "linearizedBaseContracts": [
+          30
+        ],
+        "name": "Hellolocal",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 28,
+              "nodeType": "Block",
+              "src": "111:5:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 29,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 26,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "101:2:1"
+            },
+            "returnParameters": {
+              "id": 27,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "111:0:1"
+            },
+            "scope": 30,
+            "src": "90:26:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 31,
+        "src": "66:52:1"
+      }
+    ],
+    "src": "32:87:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/shubhamshrivastava/helloCelo/contracts/Hellolocal.sol",
+      "exportedSymbols": {
+        "Hellolocal": [
+          30
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 25,
+        "name": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            30
+          ],
+          "name": "Hellolocal",
+          "scope": 31
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 30,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 26,
+                "name": "ParameterList",
+                "src": "101:2:1"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 27,
+                "name": "ParameterList",
+                "src": "111:0:1"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 28,
+                "name": "Block",
+                "src": "111:5:1"
+              }
+            ],
+            "id": 29,
+            "name": "FunctionDefinition",
+            "src": "90:26:1"
+          }
+        ],
+        "id": 30,
+        "name": "ContractDefinition",
+        "src": "66:52:1"
+      }
+    ],
+    "id": 31,
+    "name": "SourceUnit",
+    "src": "32:87:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-04-08T18:13:48.846Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
